@@ -1,0 +1,204 @@
+{
+  "message": "Operation successful!",
+  "status": true,
+  "data": {
+    "billers": [
+      {
+        "id": "a653196b-de55-4866-b274-390203d50e69",
+        "name": "SPORTYBET",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011508210305125808458885854276",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "3df01328-c756-48af-910d-3f7181ff5674",
+            "name": "SPORTYBET FUND WALLET",
+            "description": "SPORTYBET FUND WALLET",
+            "kudaIdentifier": "KUD-BET-SPTY-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "a653196b-de55-4866-b274-390203d50e69",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "7de332ed-2b31-4b21-abb1-d0467005030a",
+        "name": "MERRYBET ",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011188210305125657458173426375",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "2a94b597-e965-498e-97c2-7a9333e94d9b",
+            "name": "ADMIN TOPUP",
+            "description": "ADMIN TOPUP",
+            "kudaIdentifier": "KUD-BET-MRYB-011",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "7de332ed-2b31-4b21-abb1-d0467005030a",
+            "isActive": true,
+            "vendingAggregator": null
+          },
+          {
+            "id": "3824d91a-df58-42be-b87f-bda1bceb514b",
+            "name": "PREPAID SHOP CREDIT",
+            "description": "PREPAID SHOP CREDIT",
+            "kudaIdentifier": "KUD-BET-MRYB-010",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "7de332ed-2b31-4b21-abb1-d0467005030a",
+            "isActive": true,
+            "vendingAggregator": null
+          },
+          {
+            "id": "da7b9cf1-4a2d-4152-b0d5-5d8455b98b80",
+            "name": "WEEKLY REMITTANCE",
+            "description": "WEEKLY REMITTANCE",
+            "kudaIdentifier": "KUD-BET-MRYB-008",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "7de332ed-2b31-4b21-abb1-d0467005030a",
+            "isActive": true,
+            "vendingAggregator": null
+          },
+          {
+            "id": "2c90da1c-1bb2-4cf7-8183-18bbbf5034e8",
+            "name": "TOPUP ACCOUNT WITH ANY AMOUNT",
+            "description": "TOPUP ACCOUNT WITH ANY AMOUNT",
+            "kudaIdentifier": "KUD-BET-MRYB-007",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "7de332ed-2b31-4b21-abb1-d0467005030a",
+            "isActive": true,
+            "vendingAggregator": null
+          },
+          {
+            "id": "9e8a6a20-a48b-4256-8a81-b73037aa93e3",
+            "name": "TOPUP ACCOUNT -500",
+            "description": "TOPUP ACCOUNT -500",
+            "kudaIdentifier": "KUD-BET-MRYB-001",
+            "amount": 50000,
+            "isFixedPrice": true,
+            "billerId": "7de332ed-2b31-4b21-abb1-d0467005030a",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "34136683-084f-40ff-881b-f3f2ef602bc2",
+        "name": "BETWAY",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011359210305125609457698296206",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "4e239c27-9729-42f1-82be-61a719cb0eea",
+            "name": "NGN100 to 50000NGN BetWay",
+            "description": null,
+            "kudaIdentifier": "KUD-BET-BETW-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "34136683-084f-40ff-881b-f3f2ef602bc2",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "41747e86-c776-43e9-bbc6-91c4d3b35e49",
+        "name": "BETKING",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011540210305125512457122298679",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "b05ca6d6-8fdb-43bd-82cc-5bbb2ff5d86c",
+            "name": "100 - 50000NGN BETKING DEPOSIT",
+            "description": null,
+            "kudaIdentifier": "KUD-BET-BETK-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "41747e86-c776-43e9-bbc6-91c4d3b35e49",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "e8d4202d-b297-4116-be4e-48b1e8799252",
+        "name": "BET9JA",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011867210305125448456885079129",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "a0d10d36-7b92-4be6-b78c-97d76c58d204",
+            "name": "100 - 50000NGN FUND BET9JA",
+            "description": null,
+            "kudaIdentifier": "KUD-BET-BET9-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "e8d4202d-b297-4116-be4e-48b1e8799252",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "e63a3976-8b91-45d5-af63-be098d693217",
+        "name": "1XBET",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011482210305124911453512613975",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "929e245b-906c-4afc-b79f-e7f4a61903b6",
+            "name": "IXBET REPAYMENT",
+            "description": "IXBET REPAYMENT",
+            "kudaIdentifier": "KUD-BET-1XBT-002",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "e63a3976-8b91-45d5-af63-be098d693217",
+            "isActive": true,
+            "vendingAggregator": null
+          },
+          {
+            "id": "2bd31b00-1b02-4d9d-87f4-8945ba06424d",
+            "name": "NGN100 to 50000NGN 1XBet ",
+            "description": null,
+            "kudaIdentifier": "KUD-BET-1XBT-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "e63a3976-8b91-45d5-af63-be098d693217",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      },
+      {
+        "id": "98fc8009-08c4-4cf5-b69b-8201d53c6efb",
+        "name": "NAIRABET",
+        "description": "Betting",
+        "billerIconUrl": "https://kudatestblob.blob.core.windows.net/kuda-biller-mgmt/011443210305124419450598922348",
+        "billTypeId": "2611a6f8-99a4-4c43-bfa7-93288e5779b5",
+        "billItems": [
+          {
+            "id": "6f5b4be4-8d69-4309-8fb4-9fc4afaed28f",
+            "name": "NGN100 - NGN 50000 NAIRABET CREDIT",
+            "description": null,
+            "kudaIdentifier": "KUD-BET-NAIR-001",
+            "amount": 0,
+            "isFixedPrice": false,
+            "billerId": "98fc8009-08c4-4cf5-b69b-8201d53c6efb",
+            "isActive": true,
+            "vendingAggregator": null
+          }
+        ]
+      }
+    ]
+  },
+  "statusCode": null
+}

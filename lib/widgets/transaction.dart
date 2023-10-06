@@ -1,19 +1,22 @@
 import 'package:flutter/material.dart';
 import 'package:kudaexample/utilities/themeStyles.dart';
 
+import '../screens/transaction_details.dart';
+
 class TransactionCard extends StatefulWidget {
   final String title;
   final String subTitle;
-  final String price;
+  final String? price;
   final String letter;
   final Color color;
-  TransactionCard({
-    required this.color,
-    required this.letter,
-    required this.price,
-    required this.subTitle,
-    required this.title,
-  });
+  final void onPressed;
+  TransactionCard(
+      {required this.color,
+      required this.letter,
+      this.price,
+      required this.subTitle,
+      required this.title,
+      this.onPressed});
   @override
   _TransactionCardState createState() => _TransactionCardState();
 }
@@ -27,15 +30,7 @@ class _TransactionCardState extends State<TransactionCard> {
         onTap: () {
           // Navigator.push(
           //   context,
-          //   MaterialPageRoute(
-          //     builder: (context) => TransactionPage(
-          //       color: widget.color,
-          //       title: widget.title,
-          //       subTitle: widget.subTitle,
-          //       price: widget.price,
-          //       letter: widget.letter,
-          //     ),
-          //   ),
+          //   MaterialPageRoute(builder: (context) => onPressed),
           // );
         },
         child: Container(
@@ -84,7 +79,7 @@ class _TransactionCardState extends State<TransactionCard> {
                   Row(
                     children: [
                       Text(
-                        widget.price,
+                        widget.price ?? '0.00',
                         style: ThemeStyles.otherDetails2Primary,
                       ),
                       const SizedBox(width: 4.0),
