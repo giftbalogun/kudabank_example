@@ -39,8 +39,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  var apikey = 'giqKtpNsS1yBHDhO08Um';
-  var email = 'BLGNBALOGUN53@GMAIL.COM';
+  var apikey = '*';
+  var email = '*';
   var baseurl = 'https://kuda-openapi.kuda.com/v2.1';
 
   @override
